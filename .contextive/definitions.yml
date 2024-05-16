@@ -1,3 +1,37 @@
 contexts:
-  - terms:
-    - name: Placeholder
+  - name: Amusement Park Ticketing
+    domainVisionStatement: something something
+    terms:
+      - name: Purchase
+      - name: Guest
+      - name: Package
+
+      - name: Pass
+      - name: Park Ticket
+      - name: Season
+        definition: A period of time that affects the price
+        examples:
+          - The park adjusts its pricing to account for seasonal variations in demand.
+          - During major holidays or special events, such as Halloween or Christmas, ticket prices are often higher.
+      - name: Dated
+      - name: Undated
+      - name: Cancellations
+
+      - name: Price
+        definition: An amount that give access to the parks
+        examples:
+          -
+      - name: Rates
+      - name: Park
+        definition: A location that group several attractions, restaurants, and other services
+        examples:
+          - Access all our attractions, shows, Selfie Spots with Disney Characters, and much more!
+      - name: Discount
+      - name: Marketing Campaign
+        definition: A time-limited offer that attracts guests to the parks
+        examples:
+          - Drive attendance during slower seasons and also help fill the park during off-peak days.
+
+      - name: Accommodation
+    paths:
+      - pricing
